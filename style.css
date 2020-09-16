@@ -1,0 +1,371 @@
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1f1a;
+    height: 90px;
+    width: 100%;
+
+    position: fixed;
+    z-index: 2;
+    }
+  
+#logo img:hover {
+    opacity: .5;
+
+}
+
+
+#home {
+    color: white;
+    text-align: center;
+    padding-top: 34px;
+    padding-left: 30px;
+    white-space: nowrap;
+    font-size: 20px;
+}
+#home a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#home a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+#spacing {
+    padding-left: 100px;
+    color: #1c1f1a;
+}
+
+
+.info {
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info a:link{
+    color: white;
+    
+    text-decoration: none;      
+}
+.info a:visited{
+    
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    position: relative;
+    top: 100px;
+   
+}
+.info:hover{
+    background-color: black;}
+
+
+#search {
+    background-color: #1c1f1a;
+    padding-left: 10px;
+    padding-top: 32px;
+    padding-right: 10px;}
+
+
+
+#whiteSpace {
+    background-color: white;
+    color: white;
+    margin-left: 20px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+#meeting {
+    background-color: #348db9;
+    color: white;
+    padding-top: 37px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+#meeting a:link{
+    text-decoration: none;
+    color: white;
+}
+
+#meeting a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#meeting:hover {
+    opacity: .9;
+}
+
+
+#whiteSpace2 {
+    background-color: white;
+    color: white;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+#apply {
+    background-color: #E33E42;
+    color: white;
+    padding-left: 24px;
+    padding-right: 50px;
+    padding-top: 38px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+#apply a:link{
+    text-decoration: none;
+    color: white;
+}
+#apply a:visited{
+    text-decoration: none;
+    color: white;
+}
+#apply:hover {
+    opacity: .9;
+}
+
+
+#video {
+    z-index: 0;
+    
+    }
+
+
+#intro {
+    background-color: #000000B3;
+    color: white;
+    font-size: 50px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    margin-right: 250px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    padding: 30px;
+    z-index: 1;
+    position: relative;
+    bottom: 520px;
+    right: 100px;
+    font-weight: 00;
+    
+}
+#learn {
+    background-color: #e33e42;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    margin-right: 750px;
+    margin-left: 300px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    
+    position: relative;
+    z-index: 1;
+    bottom: 600px;
+    right: 100px;
+}
+
+#learn a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#learn a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#learn:hover {
+    opacity: .8;
+}
+
+
+
+
+#navigate {
+    z-index: 1;
+    position: relative;
+    color: black;
+    bottom: 470px;
+    left: 660px;
+    font-size: 130px;
+    
+}
+#navigate a:link {
+    text-decoration: none;
+    color: white;
+}
+#navigate a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#navigate a:hover {
+    color: red;
+    opacity: .5;
+}
+
+
+#question {
+    position: fixed;
+    bottom: 0px;
+    left: 1160px;
+    z-index: 2;
+}
+
+#courseColor{
+    background-color: lightgray;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    bottom: 500px;
+    
+}
+
+#course {
+    color: #348db9;
+    position: relative;
+    
+    top: 100px;
+    left: 430px;
+    font-size: 50px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+}
+
+#courseContainer {
+    display: flex;
+    direction: row;
+
+    
+    margin-top: 130px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+.courseSelection {
+    background-color: white;
+    flex: 1;
+    margin: 10px;
+    height: 390px;
+    border: solid 10px white;
+}
+
+.courseSelection h2 {
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.courseSelection p {
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    line-height: 1.5;
+    
+    color: grey
+}
+
+.courseSelection:hover {
+    opacity: .6;
+}
+
+.courseSelection a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.courseSelection a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+.redBox {
+    background-color: red;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 28px;
+    
+    
+}
+
+.redBox1 {
+    background-color: red;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: 0px;
+}
+
+#badgeSection {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    bottom: 400px;
+}
+
+#badge {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#techWorld {
+    padding-right: 150px;
+}
+
+#techWorld h1 {
+    color: #348db9;
+    letter-spacing: 1.8px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+
+}
+
+#techWorld p {
+    color: grey;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 1.8;
+
+}
